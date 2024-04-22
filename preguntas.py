@@ -15,6 +15,7 @@ tbl1 = pd.read_csv("tbl1.tsv", sep="\t")
 tbl2 = pd.read_csv("tbl2.tsv", sep="\t")
 
 
+
 def pregunta_01():
 
     A1=len(tbl0)
@@ -124,7 +125,6 @@ def pregunta_13():
    
     combined = pd.merge(tbl0, tbl2, on='_c0')
     A13=combined.groupby('_c1')['_c5b'].sum()
-
     return A13
 
 #Answer_13=print(pregunta_13())
