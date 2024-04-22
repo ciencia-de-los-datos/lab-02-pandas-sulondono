@@ -119,11 +119,12 @@ def pregunta_12():
 #Answer_12=print(pregunta_12())
 
 
+
 def pregunta_13():
    
     combined = pd.merge(tbl0, tbl2, on='_c0')
     A13=combined.groupby('_c1')['_c5b'].sum()
-    
+
     return A13
 
 #Answer_13=print(pregunta_13())
