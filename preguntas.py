@@ -15,7 +15,6 @@ tbl1 = pd.read_csv("tbl1.tsv", sep="\t")
 tbl2 = pd.read_csv("tbl2.tsv", sep="\t")
 
 
-
 def pregunta_01():
 
     A1=len(tbl0)
